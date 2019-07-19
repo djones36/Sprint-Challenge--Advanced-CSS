@@ -5,19 +5,29 @@
     border:1px solid @nav-border;
     position: fixed;
     top:0;
+    padding:1rem;
     .navbar{
         max-width:800px;
         margin: 0 auto; 
+        display:flex;
+        flex-direction: column;
+        align-items: center;
         .title{
-            width:100%;
-            border: 1px red solid;
+            text-align: center;
+            padding-bottom: 1.5rem;
         }
         nav{
-            border: 1px red solid;
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             a{
                 text-decoration: none;
                 font-size: 1.6rem;
                 color:@nav-font;
+                &:hover{
+                    color:@sea-shell;
+                }
             }
         }
     }
