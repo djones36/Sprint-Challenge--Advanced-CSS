@@ -1,5 +1,5 @@
 // Mixins Here
-.button-master(@radius, @thickness, @pad){
+.button-master(@radius, @thickness, @pad, @size){
     background-color: @btn-bg-color;
     color: @porcelain;
     text-align: center;
@@ -9,6 +9,7 @@
     cursor: pointer;
     border:@thickness solid black;
     padding: @pad;
+    width: @size;
 }
 
 .hover(@time) {

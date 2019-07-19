@@ -255,10 +255,11 @@ footer {
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   cursor: pointer;
   border: 1px solid black;
-  padding: 1rem;
+  padding: 0.75rem;
+  width: 30%;
 }
 .home .walk .walk-text .btn:hover {
   transform: scale(1.3);
