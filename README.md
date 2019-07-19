@@ -38,7 +38,11 @@ An adptive is design to respond to the screen size at different breakpoints, wit
 
 2. Describe what it means to be mobile first vs desktop first.
 
+You structure the code to use min-wdith and expand to desktop format. The design files you use will be mobile layouts. Desktop first would be max-width and shrink the site to fit a mobile format.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+Using the font-size:62.5% will enable you to make use of responsive font size, this will convert standard size of 16px to 10px. Allowing the rem unit to work in multiples of ten. Keeping the math simple. 
 
 4. How would you describe preprocessing to someone new to CSS?
 
