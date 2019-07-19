@@ -3,10 +3,11 @@
     width:100%;
     background:@nav-bg;
     border:1px solid @nav-border;
+    padding:1rem;
+    //Code for Static nav bar with opacity.
     opacity:0.85;
     position: fixed;
     top:0;
-    padding:1rem;
     .navbar{
         max-width:800px;
         margin: 0 auto; 
@@ -24,16 +25,15 @@
             align-items: center;
             @media @phone{
                 width:100%;
-            }
+            }//Phone Break Point
             a{
                 text-decoration: none;
                 font-size: 1.6rem;
                 color:@nav-font;
                 &:hover{
                     color:black;
-                }
-            }
-        }
-    }
-
-}
+                }//hover
+            }//A
+        }//nav
+    }//navbar
+}//top

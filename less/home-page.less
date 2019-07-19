@@ -1,15 +1,14 @@
 // Home Content
 
 .home {
-
   .intro {
     .cta-img{
       img{
         @media @phone{
           width:100%;
-        }
-      }
-    }
+        }//Phone Break Point
+      }//img
+    }//ct-img
 
 
     h2 {
@@ -19,8 +18,7 @@
     p {
       padding:0 15px;
     }
-  
-  }
+  }//intro
 
   .space-images {
     display: flex;
@@ -43,8 +41,8 @@
       .launch{
         .hide();
       }
-    }
-  }
+    }//Phone Break Point
+  }//space images
 
   .visit-planets {
     padding: 15px;
@@ -56,7 +54,7 @@
     p {
       margin-top: 13px;
     }
-  }
+  }//visit-planets
 
   .walk {
     margin-top: 60px;
@@ -67,14 +65,14 @@
     @media @phone{
       .center();
       padding: 15px;
-    }
+    }//Phone Break Point
 
     .walk-text {
       width: 50%;
       @media @phone{
         width:100%;
         order:2;
-      }
+      }//Phone Break Point
 
       h3 {
         margin-bottom: 10px;
@@ -89,9 +87,9 @@
         .hover(2);
         @media @phone{
           .button-master(0.45rem, 1px, 2rem, 100%);
-        }
-      }
-    }
+        }//Phone Break Point
+      }//btn
+    }//walk
 
     .walk-img {
       width: 46%;
@@ -102,13 +100,13 @@
         padding-bottom: 1.7rem;
         .center();
         order:1;
-      }
+      }//Phone Break Point
       
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
       }
-    }
-  }
+    }//walk-img
+  }//walk
 }// home
