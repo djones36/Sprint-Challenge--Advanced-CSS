@@ -1,1 +1,29 @@
 // Mixins Here
+.button-master(@radius, @thickness, @pad){
+    background-color: @btn-bg-color;
+    color: @porcelain;
+    text-align: center;
+    font-weight:bold;
+    font-size: 2rem;
+    border-radius: @radius;
+    cursor: pointer;
+    border:@thickness solid black;
+    padding: @pad;
+}
+
+.hover(@time) {
+    &:hover {
+      transform: scale(1.30);
+      background-color: lighten(@river-bend, 15%);
+      color: black;
+      transition: @time;
+    }
+  }
+
+
+.center() {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

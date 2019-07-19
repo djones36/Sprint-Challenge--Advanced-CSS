@@ -94,7 +94,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [ x] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
 * [x ] Add a viewport meta tag to the head of your index.html page
 
@@ -104,7 +104,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ ] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [ x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
 * [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
