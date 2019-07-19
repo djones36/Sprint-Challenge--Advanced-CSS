@@ -46,7 +46,13 @@ Using the font-size:62.5% will enable you to make use of responsive font size, t
 
 4. How would you describe preprocessing to someone new to CSS?
 
+A preprocessor is software that has unique syntax to create shorthand and new functions in css. It then recomplies the code into standard CSS. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is the ability to break apart my index.css file into smaller files organized by section. I also enjoy the readability of nesting.
+
+The concept that gave me the most trouble was the Parametric Mixin.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
